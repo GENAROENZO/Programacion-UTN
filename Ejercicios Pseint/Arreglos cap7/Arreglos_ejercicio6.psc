@@ -1,8 +1,10 @@
-Proceso sin_titulo
+//Leer por teclado una serie de 5 números reales. El programa debe indicarnos si los números están ordenados de forma creciente, decreciente, o si están desordenados.   
+Proceso ejercicio6
 	definir asc,desc Como Logico;
 	Definir i Como Entero;
 	definir num,arr Como Real;
 	Dimension arr[5];
+	//Entradas
 	Para i <- 0 Hasta 4 Con Paso 1 Hacer
 		Escribir "Escriba un numero: ";
 		Leer num;
@@ -18,6 +20,7 @@ Proceso sin_titulo
 			desc <- Verdadero;
 		FinSi
 	FinPara
+	//Salidas
 	Si asc = Verdadero y desc = Falso Entonces
 		Escribir "Los numeros se escribieron de menor a mayor";
 		

@@ -1,6 +1,8 @@
-
+//Calcular la sumatoria:  
+//S = 1  + x/1!  +  x^2/2! + x^n/n!  
 Proceso ejecicico12
 	Definir i,x,n,factorial,suma,potencia Como Real;
+	//Entradas se le agrego que no acepte valores menores a 0
 	Repetir
 		Escribir " Ingrese la variable n ";
 		Leer n;
@@ -8,6 +10,7 @@ Proceso ejecicico12
 			Escribir "Este programa no adminte valores menores o iguales a 0 ";
 		FinSi
 	Hasta Que n>0;
+// Proceso
 	Repetir
 		Escribir " Ingrese la variable x";
 		Leer x;
@@ -24,5 +27,6 @@ Proceso ejecicico12
 		suma <- suma + potencia/factorial;
 		i<-i+1;
 	Hasta Que i>n
+	//Salida
 	Escribir "La respuesta de su ejercicio es = ", suma;
 FinProceso

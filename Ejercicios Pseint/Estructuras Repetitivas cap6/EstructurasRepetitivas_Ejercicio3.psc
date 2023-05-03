@@ -1,4 +1,5 @@
-Proceso sin_titulo
+//Leer 10 números e imprimir cuantos son positivos, cuantos negativos y cuantos neutros.
+Proceso ejercicio3
 	definir cantPos,cantNeg,cantNeu como Entero;
 	Definir num Como Real;
 	definir i Como Entero;
@@ -6,6 +7,7 @@ Proceso sin_titulo
 	cantPos <- 0;
 	cantNeg <- 0;
 	cantNeu <- 0;
+	// Pedimos los 10 numeros 
 	Mientras i <= 10 Hacer
 		Escribir 'Escribe un numero; ';
 		leer num;
@@ -22,6 +24,7 @@ Proceso sin_titulo
 			FinSi
 		FinSi
 	FinMientras
+	// Damos la salida 
 	Escribir 'Te muestro un detalle de los numeros que escribiste';
 	Escribir '';
 	Escribir 'Cantidad de positivos: ',cantPos;

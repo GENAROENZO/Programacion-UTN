@@ -1,4 +1,6 @@
-Proceso sin_titulo
+//Leer 5 elementos numéricos que se introducirán ordenados de forma creciente.
+//Éstos los guardaremos en un arreglo de tamaño 6. Leer un número N, e insertarlo en el lugar adecuado para que el arreglo continúe ordenado.  
+Proceso ejercicio8
 	Definir num,i,n,j,k,posicion Como Real;
 	Definir mayor,creciente Como Logico;
 	Dimension num[6];
@@ -6,6 +8,7 @@ Proceso sin_titulo
 	j <- 0;
 	mayor <- falso;
 	creciente <- Verdadero;
+	//Entradas
 	Escribir 'Escriba 5 numeros de forma creciente';
 	Escribir '';
 	Repetir
@@ -13,6 +16,7 @@ Proceso sin_titulo
 		Leer num[i];
 		i <- i+1;
 	Hasta Que i=5
+	// Proceso
 	Escribir 'Escriba otro numero y será ordenado con los demás';
 	Leer n;
 	Repetir
@@ -23,6 +27,7 @@ Proceso sin_titulo
 			j <- j+1;
 		FinSi
 	Hasta Que mayor=Verdadero
+	//Salias
 	Escribir j,"soy la posicion";
 	Para k<-4 Hasta j Con Paso -1 Hacer
 		num[k+1] <- num[k];

@@ -30,6 +30,7 @@ Proceso ejercicio10
 			i<-i+1;
 		FinSi
 	FinMientras
+	// salida al usuario 
 	Escribir " ";
 	Escribir "La subcadena se repite  la siguiente cantidad de veces = ",sumatoria;
 

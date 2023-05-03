@@ -13,6 +13,7 @@ Proceso ejercicio7
 		arreglo[i+1]<-arreglo[i];
 	FinPara
 	arreglo[0]<-b;
+	//Salidas
 	Escribir " El nuevo orden del arreglo es = ";
 	Para i<-0 Hasta 5 Con Paso 1 Hacer
 		Escribir Sin Saltar " ",arreglo[i];

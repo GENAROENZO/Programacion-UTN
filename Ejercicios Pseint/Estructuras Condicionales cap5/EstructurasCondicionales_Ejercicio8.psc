@@ -1,8 +1,17 @@
+//Elaborar un programa que me muestre el significado de aniversario de cada década hasta los 60. 
+//Bodas de Hojalata <-10 años 
+//Bodas de Porcelana <-20 años 
+//Bodas de Perlas <-30 años 
+//Bodas de Rubí <-40 años 
+//Bodas de Oro <-50 años 
+//Bodas de Diamante <-60 años 
 
 Proceso ejercicio8
-Definir decada Como Entero;
+	Definir decada Como Entero;
+	//Pedimos la entrada
 Escribir 'Escriba el año correspondiente a las décadas de las bodas';
 leer decada;
+// Damos la salida
 Segun decada Hacer
 10:Escribir 'Tu boda fue de Hojalata';
 20:Escribir 'Tu boda fue de Porcelana';

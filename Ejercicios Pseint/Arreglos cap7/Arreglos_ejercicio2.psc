@@ -1,4 +1,5 @@
-Proceso sin_titulo
+//Crear un arreglo unidimensional donde el usuario indique el tamaño por teclado, luego llenar el arreglo con números aleatorios entre 1 - 100 y por último mostrar los elementos del arreglo. 
+Proceso ejercicio2
 	Definir arr,size,i Como Entero;
 	Dimension arr[100];
 	Escribir "defina el tamaño del array: ";
